@@ -1,0 +1,21 @@
+.modal-dialog-center{
+    margin-top: 15%;
+    max-width: 841px;
+}
+
+.cen{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.siz{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 17px;
+}
+
+.list{
+    color: white;
+}
