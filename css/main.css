@@ -440,7 +440,7 @@ button:focus {
 
  .bg2{
   background: black;
-   opacity: 0.8; 
+   opacity: 0.7; 
    color: white;
    border-radius: 37px;
  
@@ -452,6 +452,11 @@ button:focus {
    color: white;
    /* border-radius: 37px; */
 }
+
+/* .modal-content{
+  background-image: url('../img/')
+} */
+
 /* ==========================================================================
    3. Hero Area
    ========================================================================== */
@@ -480,7 +485,7 @@ button:focus {
 }
 
 #hero-area .contents {
-  padding: 200px 0 130px;
+  padding: 259px 0 130px;
 }
 
 #hero-area .contents h1 {
