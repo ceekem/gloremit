@@ -630,6 +630,7 @@ button:focus {
   display: none;
 }
 
+
 @media screen and (max-width: 768px) {
   .navbar-header {
     width: 100%;
@@ -637,10 +638,11 @@ button:focus {
   .navbar-brand {
     position: absolute;
     padding: 15px;
-    top: 0;
+    top: -10px !important;
   }
   .navbar-brand img {
-    width: 38%;
+    /* width: 38%; */
+    width: 67px ;
   }
   #mobile-menu {
     display: none;
