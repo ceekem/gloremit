@@ -744,6 +744,7 @@ button:focus {
 
 #features .section-title {
   color: #fff;
+  text-shadow: 2px 2px black !important;
 }
 
 #features .section-subtitle {
