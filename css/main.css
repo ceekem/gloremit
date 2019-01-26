@@ -144,6 +144,15 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   width:1036px;
 }
 
+.liness{
+  
+  width: 70px;
+  position: relative;
+  border-top: 2px solid #F10C0C;
+  margin-top: -24px;
+}
+
+
 /* ==========================================================================
    2.1 Section Title
    ========================================================================== */
