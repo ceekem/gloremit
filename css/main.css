@@ -133,6 +133,17 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-family: Arial, Helvetica, sans-serif; 
 }
 
+.serv-txt{
+  font-size: 24px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.slider{
+  position: relative; 
+  left:97px;
+  width:1036px;
+}
+
 /* ==========================================================================
    2.1 Section Title
    ========================================================================== */
@@ -1407,6 +1418,8 @@ footer {
 
 .linkcol{
   color: white;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 
 .linkcol1{
