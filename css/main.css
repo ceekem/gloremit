@@ -885,6 +885,7 @@ button:focus {
 
 .sli img{
   width: 68% !important;
+  box-shadow: 0px 0px 10px 0px black !important;
 }
 .video-promo .video-promo-content .video-popup {
   width: 80px;
