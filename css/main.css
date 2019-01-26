@@ -152,6 +152,10 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   margin-top: -24px;
 }
 
+.m-ico{
+  width: 121px;
+}
+
 
 /* ==========================================================================
    2.1 Section Title
