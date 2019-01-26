@@ -128,7 +128,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .corp-text{
-  font-size: 28px !important;
+  font-size: 24px !important;
   text-align: initial !important;
   font-family: Arial, Helvetica, sans-serif; 
 }
