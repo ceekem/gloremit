@@ -1025,7 +1025,7 @@ button:focus {
    opacity: 0.8; 
    color: white;
    border-radius: 37px;
- 
+  height: 400px;
 } 
 
 
@@ -1428,4 +1428,11 @@ footer {
 
 .linkcol1:hover{
   color: #F10C0C
+}
+
+.linkcol2{
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+
 }
