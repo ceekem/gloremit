@@ -110,6 +110,11 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 }
 
+.corp{
+  width: 558px;
+  height: 483px;
+}
+
 .logo{
   width: 91px;
 }
@@ -122,6 +127,11 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #F10C0C;
 }
 
+.corp-text{
+  font-size: 28px !important;
+  text-align: initial !important;
+  font-family: Arial, Helvetica, sans-serif; 
+}
 
 /* ==========================================================================
    2.1 Section Title
