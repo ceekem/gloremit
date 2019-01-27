@@ -17,6 +17,8 @@
 
   .logo{
     width: 104px ;
+    position: relative;
+    right: 53px;
   }
 
   #hero-area .contents h1{
