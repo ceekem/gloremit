@@ -43,8 +43,10 @@ body {
   color: #333333;
   font-size: 16px;
   font-weight: 400;
-  background: black;
+  /* background: black; */
   overflow-x: hidden;
+  background: url(../img/latest/paymentgateway.jpg) fixed;
+  background-size: cover;
 }
 
 html {
@@ -177,6 +179,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-weight: 700;
   /* color: #333; */
   position: relative;
+  text-shadow: 2px 2px rgba(63,107,169, 0.5);
 }
 
 .section-header .section-title span {
@@ -857,6 +860,7 @@ button:focus {
   font-size: 30px;
   text-transform: uppercase;
   margin-bottom: 30px;
+  text-shadow: 2px 2px rgba(63,107,169, 0.5);
 }
 
 .video-promo .video-promo-content p {
