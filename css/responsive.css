@@ -73,7 +73,8 @@
   #hero-area .contents {
     padding: 100px 0 80px;
     position: relative;
-    top: 81px;
+    top: 83px;
+    right: 104px;
   }
   .con{
     height: 641px;
@@ -127,9 +128,59 @@
 
   #services{
     height: 1662px;
-
+    margin-top: -333px;
   }
  .bg2{
     height: 1516px;
   }
+
+  .sli img{
+    width: 27% !important;
+    box-shadow: 0px 0px 10px 0px black !important;
+  }
+
+
+  .im{
+    display: flex;
+    justify-content: center;
+
+    width: 247px;
+    position: relative;
+    bottom: 266px;
+}
+
+  .bg3{
+    margin-top: -267px;
+  }
+
+
+  .bg33{
+    margin-top: -65px;
+  }
+
+  .corp{
+    width: 472px;
+    height: 237px;
+    margin-top: 270px;
+    box-shadow: 0px 0px 10px 0px black
+  }
+
+  .section-header{
+    margin-top: -50px
+  }
+
+
+  .pricing-section{
+    margin-top: -233 !important;
+  }
+
+  .bg22{
+    background: black;
+    opacity: 0.6;
+    color: white;
+    border-radius: 37px;
+    height: 493px;
+  }
+
+
 }

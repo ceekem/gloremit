@@ -43,7 +43,7 @@ body {
   color: #333333;
   font-size: 16px;
   font-weight: 400;
-  background: #fff;
+  background: black;
   overflow-x: hidden;
 }
 
@@ -762,12 +762,7 @@ button:focus {
   position: relative;
 }
 
-.im {
-  width: 247px;
-  position: relative;
-  bottom: 266px;
-}
-
+/* 
 #features .section-title {
   color: #fff;
   text-shadow: 2px 2px black !important;
@@ -1418,6 +1413,11 @@ footer {
 .copyright {
   margin-top: 10px;
   float: right;
+}
+
+.terms {
+  margin-top: 10px;
+  color: white;
 }
 
 .copyright p {
