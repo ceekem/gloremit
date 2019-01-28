@@ -474,6 +474,7 @@ button:focus {
   /* filter: grayscale(100%); */
   overflow: hidden;
   position: relative;
+  z-index: 200;
 } 
 
  .bg2{
