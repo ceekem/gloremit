@@ -159,6 +159,16 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   width: 121px;
 }
 
+.m.ico2{
+  width: 96px;
+}
+
+/* .h-pos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+
 
 /* ==========================================================================
    2.1 Section Title

@@ -159,7 +159,7 @@
     <!-- Header Section End --> 
 
     <!-- Services Section Start -->
-    <section id="services" class="section bg ">
+    <section id="services" class="section bg bg-s">
       <div class="container bg2">
         <div class="section-header">          
           <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our Services</h2>
@@ -181,7 +181,7 @@
           <div class="col-md-3 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
              <!-- <a href="services.html#mtp"> -->
-               <div data-toggle="modal" data-target="#basicExampleModal">
+               <div data-toggle="modal" data-target="#MTP-Modal">
               <div class="icon">
                   <img src="img/icons/icon13.png" alt="">
               </div>
@@ -189,7 +189,8 @@
             </div>
               <p class="linkcol">Our state of the art platform assists MTOs 
                 who have been integrated to distribute their transactions to mobile wallet,
-                 e-wallet and bank account instantly at the lowest cost, saving them huge money on payout cost.</p>
+                 e-wallet and bank account instantly at the lowest cost, 
+                 saving them huge money on payout cost.<br><span style="color:red; font-weight: bold; cursor: pointer;" data-toggle="modal" data-target="#MTP-Modal">...Learn more</span></p>
              <!-- </a> -->
             </div>
           </div>
@@ -243,12 +244,19 @@
               </div>
               <h4 class="linkcol1">Prepaid cards</h4>
               <p class="linkcol">
-                  <div class="list">
+                  The NF GlobalPay Prepaid card is ideal for individuals 
+                  and companies who want to control their spendings 
+                  whilst enjoying convenience. It is perfect for travellers, 
+                  holidaymakers, traders and businesses who have problems 
+                  travelling with bulk cash.
+                   You will only carry a card instead of cash.
+                   <br><span style="color:red; font-weight: bold; cursor: pointer;" data-toggle="modal" data-target="#Prepaid-Modal">...Learn more</span>
+                  <!-- <div class="list">
                       <ul>
                           <li>&#9679; MasterCards</li>
                           <li>&#9679; Visa Cards</li>
                       </ul>
-                  </div>  
+                  </div>   -->
               </p>
             </div>
           </div>
@@ -515,7 +523,7 @@
           </div>
           <div class="col-lg-6 col-sm-6 col-xs-12">
             <div class="copyright">
-              <p>All copyrights reserved &copy; 2018 - <a rel="nofollow" href="#">Gloremit.</a></p>
+              <p>All copyrights reserved &copy; 2018 - <a rel="nofollow" href="#">Global Pay LTD.</a></p>
             </div>
           </div>  
         </div>
@@ -540,7 +548,7 @@
 
      <!-- Modal content -->
   
-<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="MTP-Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-center" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -584,6 +592,90 @@
       </div>
     </div>
   </div>
+</div>
+     <!-- Modal End-->
+
+
+
+     <!-- Prepaid Modal content -->
+  
+<div class="modal fade" id="Prepaid-Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-center" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="h-pos"><h3 class="modal-title mt" id="ModalLabel">Pre-paid Cards</h3></div>
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+             <div class="row">
+               <div class="col-md-12 col-sm-12 cen">
+                  <div class="icon">
+                      <img src="img/icons/card.png" class="m-ico2" alt="">
+                  </div>
+                  <!-- <h5 class="siz">Mobile Wallet Crediting</h5> -->
+                  <p>
+                  For families who want to control spending,
+                    NF Global prepaid card puts you in charge of your own finance.
+                    It’s simple, plan what you want to spend, 
+                    reload it and spend it. 
+
+                  </p>
+
+                  <p>
+                      Companies who wants to monitor their expenditure on 
+                      fuel and perks to staff, just load the required amount and 
+                      the user won’t exceed their budget. 
+
+                  </p>
+
+                  <p>
+                      Are you a regular online shopper?, 
+                      this card is for you. Load you NF GlobalPay prepaid card
+                       and enjoy shopping around the globe with your card.
+
+                  </p>
+
+                  <p>
+                      We offer both virtual and physical plastic cards. 
+                      The virtual card is for shopping online and making 
+                      other payment over millions of shops.
+
+                  </p>
+                <!-- <div class="list">
+                      <ul>
+                          <li>&#9679; MasterCards</li>
+                          <li>&#9679; Visa Cards</li>
+                      </ul>
+                  </div>   -->
+              </div>
+              
+               <!-- <div class="col-md-6 col-sm-6 cen">
+                  <div class="icon">
+                      <img src="img/icons/money.png" alt="">
+                    </div>
+                    <h5 class="siz">Bank Account Credit</h5>
+                    <p>The era of waiting for days for bank account to be credited is over. 
+                      Global Pay system allows partners to process bank account transactions seamlessly and instantly. </p>
+                  
+                 </div> -->
+             </div>
+                
+            
+     
+                
+            
+       
+         <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
      <!-- Modal End-->
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
